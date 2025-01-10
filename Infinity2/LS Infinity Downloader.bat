@@ -1,4 +1,9 @@
 @echo Started downloads
+
+@echo Getting custom files
+ curl https://github.com/axeblade346/LMASKLO/blob/main/Infinity2/LSA.js --output LSA.js --ssl-no-revoke
+curl https://github.com/axeblade346/LMASKLO/blob/main/Infinity2/index.html --output index.html --ssl-no-revoke
+@echo Getting needed files from Orginal webmap
 	curl https://andistyr.github.io/wu-map/14901/map.js --output map.js --ssl-no-revoke
 	curl https://andistyr.github.io/wu-map/14901/removegoogle.js --output removegoogle.js --ssl-no-revoke
 	curl https://andistyr.github.io/wu-map/14901/style.css --output style.css --ssl-no-revoke
